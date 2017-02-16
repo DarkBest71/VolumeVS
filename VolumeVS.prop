@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "VolumeVS"  : {
+      "description": "Controle du volume du PC",
+      "version"    : "3.16",
+      "os_version"   : "64",
+	  "Auteur": "Avatar Rousseau (Dark Best)"
+    }
+  }
+}

@@ -1,22 +1,13 @@
 # Le plugin VolumeVS vous permet de controler le son de votre PC avec S.A.R.A.H
-Auteur: Avatar Rousseau Dark-Best.
 
 Plugins pour sarah qui coupe, monte, diminue le son du pc ./bin/nircmdc.exe
 
 # Explication:
 
-Vous devez mettre dans le fichier VolumeVS.prop la version de votre windows que vous utilisez : 32 bits ou 64 bits. Exemple dans le
+Vous devez mettre dans le fichier VolumeVS.prop la version de votre windows que vous utilisez : 32 bits ou 64 bits. Exemple dans le fichier VolumeVS.prop: "os_version" : "32" ou "os_version" : "64" Si vous ne savez pas votre version , aller sur le menu demarer a bas a gauche cliquer sur ordinateur puis aller sur Proprietes systeme puis retrouvez la ligne suivante: Type du systeme: Systeme d exploitation 64 bits ou pour dautre cela serra 32 bits.
 
-fichier VolumeVS.prop: "os_version" : "32" ou "os_version" : "64" Si vous ne savez pas votre version , aller sur le menu demarer a bas a
+# Pour demandÈ a Sarah pour jouer avec le volume du PC.
 
-gauche cliquer sur ordinateur puis aller sur Proprietes systeme puis retrouvez la ligne suivante: Type du systeme: Systeme d exploitation
+voil‡ les mots qui faut dire a Sarah:
 
-64 bits ou pour dautre cela serra 32 bits.
-
-# Pour demand√© a Sarah pour jouer avec le volume du PC.
-
-voil√† les mots qui faut dire a Sarah:
-
-Sarah coupe le son. Sarah silence. Sarah tais toi. Sarah ta gueule. Sarah remet le son. Sarah remet le volume. Sarah monte le volume.
-
-Sarah monte le son. Sarah baisse le son.
+Sarah coupe le son. Sarah silence. Sarah tais toi. Sarah ta gueule. Sarah remet le son. Sarah remet le volume. Sarah monte le volume. Sarah monte le son. Sarah baisse le son.

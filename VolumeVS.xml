@@ -1,0 +1,20 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleVolumeVS" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="ruleVolumeVS" scope="public">
+<example>Sarah coupe le son</example>
+<tag>out.action=new Object(); </tag>
+<item weight="2">Sarah</item>
+<one-of>
+<item>coupe le son<tag>out.action.soundValue="hpoff"</tag></item>
+<item>silence<tag>out.action.soundValue="hpoff"</tag></item>
+<item>tais toi<tag>out.action.soundValue="hpoff"</tag></item>
+<item>ta gueule<tag>out.action.soundValue="hpoff"</tag></item>
+<item>remet le son<tag>out.action.soundValue="hpon"</tag></item>
+<item>remet le volume<tag>out.action.soundValue="hpon"</tag></item>
+<item>monte le volume<tag>out.action.soundValue="monte"</tag></item>
+<item>monte le son<tag>out.action.soundValue="monte"</tag></item>
+<item>baisse le son<tag>out.action.soundValue="baisse"</tag></item>
+<item>baisse le volume<tag>out.action.soundValue="baisse"</tag></item>
+</one-of>
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/VolumeVS";</tag>
+</rule>
+</grammar>
