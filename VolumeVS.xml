@@ -7,11 +7,17 @@
 <item>coupe le son<tag>out.action.soundValue="hpoff"</tag></item>
 <item>silence<tag>out.action.soundValue="hpoff"</tag></item>
 <item>tais toi<tag>out.action.soundValue="hpoff"</tag></item>
+<item>té toi<tag>out.action.soundValue="hpoff"</tag></item>
+<item>Chute<tag>out.action.soundValue="hpoff"</tag></item>
+<item>La ferme<tag>out.action.soundValue="hpoff"</tag></item>
+<item>Tu te té<tag>out.action.soundValue="hpoff"</tag></item>
 <item>ta gueule<tag>out.action.soundValue="hpoff"</tag></item>
 <item>remet le son<tag>out.action.soundValue="hpon"</tag></item>
 <item>remet le volume<tag>out.action.soundValue="hpon"</tag></item>
 <item>monte le volume<tag>out.action.soundValue="monte"</tag></item>
+<item>monte le volume du PC<tag>out.action.soundValue="monte"</tag></item>
 <item>monte le son<tag>out.action.soundValue="monte"</tag></item>
+<item>monte le son du PC<tag>out.action.soundValue="monte"</tag></item>
 <item>baisse le son<tag>out.action.soundValue="baisse"</tag></item>
 <item>baisse le volume<tag>out.action.soundValue="baisse"</tag></item>
 </one-of>
