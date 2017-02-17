@@ -15,27 +15,27 @@ var exec = require('child_process').exec;
   
 if (data.soundValue == "hpon") 
 {
-var command = "mutesysvolume 0";
+var command = "mutesysVolumeVS 0";
 }
 if (data.soundValue == "hpoff") 
 {
-var command = "mutesysvolume 1";
+var command = "mutesysVolumeVS 1";
 }
 if (data.soundValue == "monte") 
 {
-var command = "changesysvolume 10000";
+var command = "changesysVolumeVS 10000";
 }
 if (data.soundValue == "baisse") 
 {
-var command = "changesysvolume -10000";
+var command = "changesysVolumeVS -10000";
 }
 if (config.os_version == "32") 
 {
-var process = '%CD%/plugins/volume/bin/nircmdc.exe'; 
+var process = '%CD%/plugins/VolumeVS/bin/nircmdc.exe'; 
 }
 if (config.os_version == "64") 
 {
-var process = '%CD%/plugins/volume/bin/nircmdc64.exe'; 
+var process = '%CD%/plugins/VolumeVS/bin/nircmdc64.exe'; 
 }
 process +=  ' '+ command;
 //console.log(process);
